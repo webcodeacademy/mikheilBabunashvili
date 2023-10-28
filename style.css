@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}  
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+body {
+    background-image: url(img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+header {
+
+    width: 100%;
+    height: 100px;
+
+}
+
+header h1  {
+    width: 170px;
+    height: 70px;
+    margin: 100px;
+    margin-bottom: 10px;
+    
+         
+      
+
+}
+
+h1 a {
+    background-image:url(img/SmithWesson.png) ;
+    color: #0a0a0a;
+    background-repeat: no-repeat;
+    padding: 70px 0 0 0;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+     
+     
+}
+
+header ul {
+    width: 600px;
+    height: 50px;
+
+    margin-right: 100px;
+
+
+}
+
+header ul a {
+    padding: 5px 0px 5px;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    transition: 2s;
+    margin: 5px;
+    text-shadow: 1px 1px #000000;
+    
+
+
+
+
+}
+
+header ul a::before {
+    content: " ";
+    width: 0px;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 2s;
+
+}
+
+header ul a:hover:before {
+    width: 100%;
+
+
+}
+
+
+.navbar :hover {
+    color: #000000;
+
+}
+
+
+.sveti {
+    width: 688px;
+    height: 1000px;
+    margin-left: 820px;
+}
+
+
+.card {
+    width: 280px;
+    height: 434px;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 10px;
+    background-position: center;
+
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+    object-fit: cover;
+
+}
+
+
+
+.sveti .card:hover {
+
+    transform: translateY(10px);
+    box-shadow: 6px 6px 10px 10px #7b7c79;
+}
+
+.text {
+
+    width: 200;
+    height: 100px;
+    position: absolute;
+    margin: -100px 10px 20px;
+    color: #000000;
+}
+ 
+.social{
+    width: 100px;
+    height: 200px;
+    position: fixed;
+    left: 0;
+    top: 300px;
+}
+
+
+.social div{
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+}
+.social .instagram{
+    background-image: url(img/facebook1.png);
+
+}
+.social .facebook{
+    background-image: url(img/instagram1.png);
+
+}
+
+.social .instagram:hover{
+    background-image: url(img/facebook.png);
+}
+.social .facebook:hover{
+    background-image: url(img/instagram.png);
+
+}
+
+.social div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fot{
+  
+    width: 100%;
+    height: 140px;
+    background-color: #33323280;
+    
+    padding: 30px;
+    
+    
+}
+ 
+
+.sakontaqto{
+
+    width: 800px;
+    height: 80px;
+    
+      
+    margin :auto;
+    color: #ffffff;
+    margin-top: 20px;
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+ /* ======================= kontaqti=================== */
+
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* =======================iaragebi=================== */
+.iaragibox {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+     
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+      
+}
+
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+     
+    
+  }
+  
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+   
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: #000000;
+    background: #33323280;
+    color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    transition: .5s ease;
+    opacity:0;
+    color: #23cd9a;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+
+  /* * =======================shesaxeb=================== */
+ 
+.shesaxeb{
+    width: 800px;
+    height: 700px;
+    background-color: #ffffff;
+    margin:  auto;
+    padding: 10px;
+    text-align: justify;
+     
+}
+
+
+/* ===================galerea=========================== */
+
+.gal{
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+  }
+  
+  .container3 {
+    position: relative;
+    width: 1160px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    margin: 50px auto;
+    cursor: pointer;
+
+     
+  }
+  .container3 .box {
+    position: relative;
+    width: 275px;
+    height: 275px;
+    background: #000;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    overflow: hidden;
+    margin-right: 15px;
+    margin-top: 45px;
+  }
+  .container3:hover .box {
+    transform: rotateY(25deg);
+  }
+  .container3 .box:hover ~ .box {
+    transform: rotateY(-25deg);
+  }
+  .container3 .box:hover {
+    transform: rotateY(0deg) scale(1.25);
+    z-index: 1;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+  }
+  .container3 .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container3 .box .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,#f00,#000);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+    mix-blend-mode: multiply;
+  }
+  .container3 .box:hover .imgBx:before {
+    opacity: 1;
+  }
+  .container3 .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container3 .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+  .container3 .box .content h2 {
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(200px);
+     
+    transition-delay: 0.3s;
+  }
+  .container3 .box:hover .content h2 {
+    transform: translateY(0px);
+  }
+  .container3 .box .content p {
+    color: #fff;
+    transition: 0.5s;
+    font-size: 14px;
+    transform: translateY(200px);
+    transition-delay: 0.4s;
+    
+  }
+  .container3 .box:hover .content p {
+    transform: translateY(0px);
+  }
+
+  /* ===================================================== */
+
+  @media only screen and (max-width: 850px) {
+  
+    header ul{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    header h1 a { 
+
+      visibility: hidden;
+   
+   
+    }
+
+     
+}
+
+
+
+
+
